@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100%;
+}
+
+.header {
+  padding: 15px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.header__input {
+  border-radius: 18px;
+  padding: 9px 11px;
+  border: none;
+  width: 200px;
+  background-color: #f0f2f5;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 70px;
+}
+
+.header__profile {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2px;
+}
+
+/* main */
+
+.see-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #1877f2;
+  font-weight: bold;
+}
+
+.main {
+  height: calc(100vh - 70px);
+}
+
+.main__wrapper {
+  display: flex;
+  height: 100%;
+}
+.main__left {
+  width: 345px;
+  text-align: center;
+  overflow: auto;
+}
+
+.main__btn {
+  background-color: #1877f2;
+  padding: 15px 56px;
+  border: none;
+  border-radius: 10px;
+  font-size: 22px;
+  color: white;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.main__list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-left: 10px;
+  margin-top: 45px;
+}
+
+.main__item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.main__shortcuts {
+}
+
+.main__shortcut {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-bottom: 22px;
+}
+
+.main__item p {
+  font-size: 18px;
+}
+
+.main__left-title {
+  text-align: left;
+  font-size: 20px;
+  margin: 16px 0 17px 10px;
+}
+
+.main__center {
+  background-color: black;
+  flex-grow: 3;
+  padding: 10px;
+  overflow: scroll;
+}
+
+.main__right {
+  width: 345px;
+  padding: 5px 2px;
+  overflow: auto;
+}
+
+.main__freindship-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main__friendship-text {
+  font-size: 18px;
+}
+
+.box {
+  background-color: white;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.friends__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends__info-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.friends__item {
+  background-color: #f9f9f9;
+  padding: 7px 14px;
+  border-radius: 7px;
+  margin-bottom: 5px;
+}
+
+.friends__btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.friends__btn {
+  padding: 8px 42px;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.friends__btn-confirm {
+  background-color: #1877f2;
+  color: #fff;
+}
+.friends__btn-del {
+  background-color: #e4e6eb;
+  color: #000;
+}
+
+.main__contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.main__contacts-imgs {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.main__contact-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.main__profile-img {
+  width: 50px;
+  height: 50px;
+}
+.main__profile-name {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.main__news {
+  margin-top: 12px;
+}
+.main__new {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.main__new-img {
+  width: 50px;
+  height: 50px;
+}
+.main__new-title {
+  font-size: 15px;
+}
+.main__new-text {
+  font-size: 10px;
+}
+.link-small {
+  font-size: 10px;
+}
